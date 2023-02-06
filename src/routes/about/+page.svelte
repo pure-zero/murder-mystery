@@ -11,6 +11,6 @@
 	</p>
 
 	<p>
-		You know nothing about it so far, talk to the characters to find out about thier relationships and who committed the crime.
+		You know nothing about it so far, talk to the suspects to find out about thier relationships and who committed the crime.
 	</p>
 </div>
