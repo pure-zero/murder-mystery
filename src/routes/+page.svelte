@@ -36,10 +36,10 @@
 
 <h1>Murder!</h1>
 
-<button class="my-1" on:click={() => setCurrentView('Joe')}>Joe</button>
-<button class="my-1" on:click={() => setCurrentView('Cindy')}>Cindy</button>
-<button class="my-1" on:click={() => setCurrentView('Ksenia')}>Ksenia</button>
-<button class="my-1" on:click={() => setCurrentView('Jason')}>Jason</button>
+<button class="my-1 btn btn-primary" on:click={() => setCurrentView('Joe')}>Joe</button>
+<button class="my-1 btn btn-primary" on:click={() => setCurrentView('Cindy')}>Cindy</button>
+<button class="my-1 btn btn-primary" on:click={() => setCurrentView('Ksenia')}>Ksenia</button>
+<button class="my-1 btn btn-primary" on:click={() => setCurrentView('Jason')}>Jason</button>
 
 {#if selected}
     <Person name={selected} chat={selectedChat} on:message={sendChat}/>
